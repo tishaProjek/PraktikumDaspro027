@@ -11,7 +11,7 @@ public class StudiKasus127 {
         jumlahCup = input.nextInt();
         System.out.print("Masukkan uang yang dibayar: ");
         uangBayar = input.nextInt();
-
+//menghitung total harga
         totalHarga =  jumlahCup * hargaPerCup;
         diskon = 0;
         if (totalHarga >= 100000) {
@@ -19,7 +19,7 @@ public class StudiKasus127 {
         } else {
             totalBayar = totalHarga - diskon;
             }
-
+// mencetak total harga, diskon, kembalian, uang yang di bayar
         System.out.println("Total harga: " + totalHarga);
         System.out.println("Diskon: " + diskon);
         totalBayar = totalHarga - diskon;
